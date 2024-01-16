@@ -1,0 +1,11 @@
+:root {
+    --list-lightblue: rgba(12, 168, 243, 1);
+    --list-purple: rgba(171, 93, 230, 1);
+    --list-darkgreen: rgba(45, 198, 171, 1);
+    --list-green: rgba(163, 210, 21, 1);
+    --list-lightergreen: rgba(132, 219, 196, 1);
+    --list-orange: rgba(251, 152, 6, 1);
+    --list-magenta: rgba(237, 75, 157, 1);
+    --list-red: rgba(207, 85, 92, 1);
+    --list-grey: rgba(247, 248, 250, 1);
+}
