@@ -19,7 +19,18 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--list-grey);
+    width: 1123px;
+    height: 705px;
+
+    border: 1px solid black;
+}
+
+/*----------- header ------------*/
+
 .banner {
+    background-color: white;
     width: 1123px;
     padding-left: 1rem;
 
@@ -39,4 +50,29 @@
     margin-left: 10px;
     padding-bottom: 0.3rem;
 
+}
+
+/*------------ /header ----------*/
+
+/*------------- main ------------*/
+
+nav {
+    width: 800px;
+    height: 50px;
+
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.container {
+    width: 800px;
+    height: 550px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: .3rem;
+    background-color: white;
+    border-radius: 5px;
 }
