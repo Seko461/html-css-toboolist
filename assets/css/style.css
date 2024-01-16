@@ -37,7 +37,7 @@ body {
     display: flex;
     flex-direction: row;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .logo {
@@ -63,8 +63,10 @@ nav {
     margin: auto;
     margin-top: 1.5rem;
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
+    line-height: 50px;
+    padding-left: 3rem;
 }
 
 .container {
@@ -75,4 +77,24 @@ nav {
     margin-top: .3rem;
     background-color: white;
     border-radius: 5px;
+}
+
+button {
+    border: 1px solid rgb(209, 209, 209);
+    ;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.task {
+    background-color: var(--list-lightblue);
+    color: white;
+    border: 1px solid rgb(0, 110, 255);
+
+}
+
+.section {
+    background-color: white;
+    color: rgb(209, 209, 209);
+    ;
 }
