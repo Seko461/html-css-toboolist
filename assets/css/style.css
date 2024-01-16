@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700;800;900&display=swap');
+
+
 :root {
     --list-lightblue: rgba(12, 168, 243, 1);
     --list-purple: rgba(171, 93, 230, 1);
@@ -8,4 +11,32 @@
     --list-magenta: rgba(237, 75, 157, 1);
     --list-red: rgba(207, 85, 92, 1);
     --list-grey: rgba(247, 248, 250, 1);
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 1123px;
+    padding-left: 1rem;
+
+    display: flex;
+    flex-direction: row;
+
+    border: 1px solid black;
+}
+
+.logo {
+    padding-top: .5rem;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-left: 10px;
+    padding-bottom: 0.3rem;
+
 }
