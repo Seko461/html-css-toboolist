@@ -24,7 +24,7 @@ body {
     width: 1123px;
     height: 705px;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /*----------- header ------------*/
@@ -112,8 +112,9 @@ button {
 
 .items {
     padding-left: 3rem;
+
     padding-top: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
@@ -121,11 +122,15 @@ button {
     padding-left: 3rem;
 }
 
-#check {
+.fa-solid {
+    margin-right: 5px;
+}
+
+.fa-circle-check {
     color: var(--list-lightergreen)
 }
 
-#cross {
+.fa-circle-xmark {
     color: var(--list-red);
 }
 
@@ -134,38 +139,39 @@ button {
     padding-left: .5rem;
 }
 
-.editorial_label {
+.label {
+
+    color: white;
+    font-size: 0.8rem;
+    padding: 3px;
+    margin-left: 3px;
+    border-radius: 10px;
+}
+
+.editorial {
     background-color: var(--list-lightblue);
-    color: white;
-    font-size: 0.8rem;
-    padding: 3px;
-    margin-left: 3px;
-    border-radius: 10px;
 }
 
-.goals_label {
+.goals {
     background-color: var(--list-purple);
-    color: white;
-    font-size: 0.8rem;
-    padding: 3px;
-    margin-left: 3px;
-    border-radius: 10px;
+
 }
 
-.recruiting_label {
+.recruiting {
     background-color: var(--list-darkgreen);
-    color: white;
-    font-size: 0.8rem;
-    padding: 3px;
-    margin-left: 3px;
-    border-radius: 10px;
+
 }
 
-.mobile_label {
+.mobile {
     background-color: var(--list-orange);
-    color: white;
-    font-size: 0.8rem;
-    padding: 3px;
-    margin-left: 3px;
-    border-radius: 10px;
+
+}
+
+.web {
+    background-color: var(--list-magenta);
+
+}
+
+.seales {
+    background-color: var(--list-green);
 }
